@@ -23,7 +23,7 @@ export default function Form() {
             </h2>
           </div>
 
-          <div className="mt-3 sm:mx-auto sm:w-full sm:max-w-sm">
+          <div className="mt-6 sm:mx-auto sm:w-full sm:max-w-sm">
             <form
               className="space-y-4"
               action="https://submit-form.com/R9ED8sqS"
