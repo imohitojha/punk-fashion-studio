@@ -3,61 +3,16 @@
 import Image from "next/image";
 import HeroImage from "../public/images/PUNK.png aa.png";
 import Logo from "../public/images/the punk logo png white.png";
-import { useState, useEffect } from "react";
-import { FaMoon, FaSun } from "react-icons/fa";
 import { Icon } from "@iconify/react";
 import NavBar from "@/components/NavBar";
+import Link from "next/link";
+import Footer from "@/components/Footer";
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(false);
-
-  useEffect(() => {
-    const isDarkMode = window.matchMedia(
-      "(prefers-color-scheme: dark)"
-    ).matches;
-    setDarkMode(isDarkMode);
-  }, []);
-
-  const toggleDarkMode = () => {
-    setDarkMode(!darkMode);
-  };
-
-  useEffect(() => {
-    if (darkMode) {
-      document.documentElement.classList.add("dark");
-    } else {
-      document.documentElement.classList.remove("dark");
-    }
-  }, [darkMode]);
 
   return (
-    <main className="relative w-full mt-8">
-      <button onClick={toggleDarkMode} className="absolute right-16 text-sm">
-        {darkMode ? (
-          <div className="flex items-center">
-            <FaSun /> <p className="m-2">Light Mode</p>
-          </div>
-        ) : (
-          <div className="flex items-center">
-            <FaMoon /> <p className="m-2">Dark Mode</p>
-          </div>
-        )}
-      </button>
-      <section id="top-section">
-        <Image
-          className="w-1/12 absolute left-16 top-0 mr-20 logo-bounce"
-          src={Logo}
-          alt="Logo"
-        />
-        <p className="absolute z-10 top-8 left-44 text-[#ff3d3e] text-5xl font-bold uppercase font-oswald">
-          The Punk Fashion Studio
-        </p>
-        <p className="absolute top-[85px] left-44">We're PUNKS...</p>
-      </section>
-      <section className="relative top-40 z-20" id="nav-section">
-        <hr className="m-auto w-11/12 mb-4" />
-        <NavBar />
-      </section>
+    <main className="relative mt-8 container-fluid">
+      <NavBar />
       <section id="second-section" className="relative top-[64px]">
         <div className="absolute z-10 w-full inset-0 bg-black bg-opacity-70">
           <Image
@@ -96,9 +51,9 @@ export default function Home() {
           width="100vh"
         />
         <div className="z-10 flex items-center justify-center relative top-[-400px]">
-          <button className="bg-[#ff3d3e] rounded-full w-1/3 text-3xl h-32 font-bold uppercase font-jost shadow-custom">
+          <Link href="/form" className="bg-[#ff3d3e] rounded-full w-1/3 text-3xl h-32 font-bold uppercase font-jost shadow-custom text-center pt-12">
             Book Your Appointment
-          </button>
+          </Link>
         </div>
       </section>
       <section id="about-us" className="relative">
@@ -340,7 +295,7 @@ export default function Home() {
       </section>
       <section
         id="testimonials"
-        className="relative mb-16 border-solid border-2 border-[#ff3d3e] flex flex-col rounded-lg p-12"
+        className="border-solid border-2 border-[#ff3d3e] flex flex-col rounded-lg p-12"
       >
         <div className="flex justify-center items-center">
           <h1 className="text-5xl tracking-widest font-comforter mb-8 text-[#ff3d3e]">
@@ -357,84 +312,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <footer className="bg-darkslateblue h-32 flex justify-center items-start m-20 font-oswald mb-72 mx-20">
-        <div className="w-1/2">
-          <div className="flex flex-col justify-center items-start">
-            <p className="text-6xl font-bold mb-16 uppercase text-[#ff3d3e] font-bebas-neue">
-              The Punk Fashion Studio
-            </p>
-            <div className="flex justify-start items-center">
-              <Icon
-                className="text-[#ff3d3e] text-5xl"
-                icon="akar-icons:instagram-fill"
-              />
-              <Icon
-                className="text-[#ff3d3e] text-5xl ml-8"
-                icon="akar-icons:facebook-fill"
-              />
-              <Icon
-                className="text-[#ff3d3e] text-5xl ml-8"
-                icon="akar-icons:twitter-fill"
-              />
-              <Icon
-                className="text-[#ff3d3e] text-5xl ml-8"
-                icon="akar-icons:youtube-fill"
-              />
-              <Icon
-                className="text-[#ff3d3e] text-5xl ml-8"
-                icon="akar-icons:pinterest-fill"
-              />
-            </div>
-          </div>
-        </div>
-        <div className="w-1/2">
-          <div
-            id="contact-us"
-            className="flex flex-col justify-center items-start pl-12"
-          >
-            <p className="text-white text-4xl mb-16 uppercase">Contact Us</p>
-            <div className="font-jost">
-              <p className="text-white text-xl flex tracking-widest mb-8">
-                <Icon
-                  className="text-[#ff3d3e] text-5xl mr-8"
-                  icon="mdi:address-marker"
-                />
-                <div>
-                  <span>
-                    118/164 (7), Gumti No.5, Kaushalpuri, Darshan Purwa, Kanpur,
-                    Uttar Pradesh 208012
-                  </span>
-                  <a href="https://goo.gl/maps/cvMJpn2NRzND3r6G7">
-                    <br />
-                    <span className="underline cursor-pointer">
-                      (Click here to reach our location)
-                    </span>
-                  </a>
-                </div>
-              </p>
-              <p className="text-white text-xl flex tracking-widest mb-8">
-                <Icon
-                  className="text-[#ff3d3e] text-4xl mr-8"
-                  icon="mdi:phone"
-                />
-                +91 885855910, +91 8177006806
-              </p>
-              <p className="text-white text-xl flex tracking-widest mb-8">
-                <Icon
-                  className="text-[#ff3d3e] text-4xl mr-8"
-                  icon="mdi:email"
-                />
-                thepunkfashionstudio@gmail.com
-              </p>
-            </div>
-          </div>
-        </div>
-      </footer>
-      <div className="mb-8">
-        <p className="text-white text-2xl text-center font-jost">
-          &copy; {new Date().getFullYear()} The Punk Fashion Studio
-        </p>
-      </div>
+      <Footer />
     </main>
   );
 }
