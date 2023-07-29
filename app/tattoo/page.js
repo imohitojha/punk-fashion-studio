@@ -49,7 +49,7 @@ export default function Home() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 w-fit">
           <div className="relative w-fit shadow-custom-dark mr-[1.5rem]">
             <div className="absolute bottom-0 h-24 bg-[#ff3d3e] opacity-70 text-4xl font-oswald p-4 text-left w-full flex flex-col justify-between">
-              <p>Tattoo</p>
+              <p>Lord Shiva Tattoos</p>
               <button className="text-left text-[1rem] text-coral flex items-center font-jost">
                 Explore full gallery
                 <Icon
@@ -59,7 +59,7 @@ export default function Home() {
               </button>
             </div>
             <Image
-              src="/images/image_6483441 (2).JPG"
+              src="/images/lord-shiva.JPG"
               width={392}
               height={441}
               alt=""
@@ -67,7 +67,7 @@ export default function Home() {
           </div>
           <div className="relative w-fit shadow-custom-dark mr-[1.5rem]">
             <div className="absolute bottom-0 h-24 bg-[#ff3d3e] opacity-70 text-4xl font-oswald p-4 text-left w-full flex flex-col justify-between">
-              <p>Salon</p>
+              <p>Minimal Tattoos</p>
               <button className="text-left text-[1rem] text-coral flex items-center font-jost">
                 Explore full gallery
                 <Icon
@@ -76,11 +76,11 @@ export default function Home() {
                 />
               </button>
             </div>
-            <Image src="/images/IMG-9291.jpg" width={392} height={441} alt="" />
+            <Image src="/images/minimal-sun-moon.JPG" width={392} height={441} alt="" />
           </div>
           <div className="relative w-fit shadow-custom-dark mr-[1.5rem]">
-            <div className="absolute bottom-0 h-24 bg-[#ff3d3e] opacity-70 text-3xl font-oswald p-4 text-left w-full flex flex-col justify-between">
-              <p>The Punk School</p>
+            <div className="absolute bottom-0 h-24 bg-[#ff3d3e] opacity-70 text-4xl font-oswald p-4 text-left w-full flex flex-col justify-between">
+              <p>Shoulder Tattoos</p>
               <button className="text-left text-[1rem] text-coral flex items-center font-jost">
                 Explore course
                 <Icon
@@ -90,7 +90,7 @@ export default function Home() {
               </button>
             </div>
             <Image
-              src="/images/image_6483441 (4).JPG"
+              src="/images/shoulder-rose.JPG"
               width={392}
               height={441}
               alt=""
@@ -98,7 +98,7 @@ export default function Home() {
           </div>
           <div className="relative w-fit shadow-custom-dark mr-[1.5rem]">
             <div className="absolute bottom-0 h-24 bg-[#ff3d3e] opacity-70 text-4xl font-oswald p-4 text-left w-full flex flex-col justify-between">
-              <p>Tattoo</p>
+              <p>Lord Shiva Tattoos</p>
               <button className="text-left text-[1rem] text-coral flex items-center font-jost">
                 Explore full gallery
                 <Icon
@@ -108,7 +108,7 @@ export default function Home() {
               </button>
             </div>
             <Image
-              src="/images/image_6483441 (2).JPG"
+              src="/images/lord-shiva.JPG"
               width={392}
               height={441}
               alt=""
@@ -116,7 +116,7 @@ export default function Home() {
           </div>
           <div className="relative w-fit shadow-custom-dark mr-[1.5rem]">
             <div className="absolute bottom-0 h-24 bg-[#ff3d3e] opacity-70 text-4xl font-oswald p-4 text-left w-full flex flex-col justify-between">
-              <p>Salon</p>
+              <p>Minimal Tattoos</p>
               <button className="text-left text-[1rem] text-coral flex items-center font-jost">
                 Explore full gallery
                 <Icon
@@ -125,11 +125,11 @@ export default function Home() {
                 />
               </button>
             </div>
-            <Image src="/images/IMG-9291.jpg" width={392} height={441} alt="" />
+            <Image src="/images/minimal-sun-moon.JPG" width={392} height={441} alt="" />
           </div>
           <div className="relative w-fit shadow-custom-dark mr-[1.5rem]">
-            <div className="absolute bottom-0 h-24 bg-[#ff3d3e] opacity-70 text-3xl font-oswald p-4 text-left w-full flex flex-col justify-between">
-              <p>The Punk School</p>
+            <div className="absolute bottom-0 h-24 bg-[#ff3d3e] opacity-70 text-4xl font-oswald p-4 text-left w-full flex flex-col justify-between">
+              <p>Shoulder Tattoos</p>
               <button className="text-left text-[1rem] text-coral flex items-center font-jost">
                 Explore course
                 <Icon
@@ -139,7 +139,7 @@ export default function Home() {
               </button>
             </div>
             <Image
-              src="/images/image_6483441 (4).JPG"
+              src="/images/shoulder-rose.JPG"
               width={392}
               height={441}
               alt=""
