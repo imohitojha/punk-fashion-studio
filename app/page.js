@@ -156,13 +156,13 @@ export default function Home() {
           <div className="relative w-fit shadow-custom-dark mr-[1.5rem]">
             <div className="absolute bottom-0 h-24 bg-[#ff3d3e] opacity-70 text-4xl font-oswald p-4 text-left w-full flex flex-col justify-between">
               <p>Tattoo</p>
-              <button className="text-left text-[1rem] text-coral flex items-center font-jost">
+              <Link href="/tattoo" className="text-left text-[1rem] text-coral flex items-center font-jost">
                 Explore full gallery
                 <Icon
                   className="rotate-[135deg] ml-4"
                   icon="teenyicons:arrow-solid"
                 />
-              </button>
+              </Link>
             </div>
             <Image
               src="/images/image_6483441 (2).JPG"
@@ -212,7 +212,6 @@ export default function Home() {
         </div>
       </section>
       <section className="bg-whitesmoke pb-24 px-[8.75rem] flex justify-center">
-        {/* <h3 className='text-center text-6xl font-oswald text-gray-200 pt-36'>About IFACET</h3> */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4 w-fit font-oswald">
           <div className="relative w-54 shadow-custom-dark">
             <Image
@@ -293,7 +292,7 @@ export default function Home() {
           </p>
         </div>
       </section>
-      <section
+      {/* <section
         id="testimonials"
         className="border-solid border-2 border-[#ff3d3e] flex flex-col rounded-lg p-12"
       >
@@ -311,7 +310,7 @@ export default function Home() {
             <p>sfdgghbnm,</p>
           </div>
         </div>
-      </section>
+      </section> */}
       <Footer />
     </main>
   );

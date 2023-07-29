@@ -1,5 +1,6 @@
 import React from "react";
 import { Icon } from "@iconify/react";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -51,12 +52,12 @@ export default function Footer() {
                     118/164 (7), Gumti No.5, Kaushalpuri, Darshan Purwa, Kanpur,
                     Uttar Pradesh 208012
                   </span>
-                  <a href="https://goo.gl/maps/cvMJpn2NRzND3r6G7">
+                  <Link href="https://goo.gl/maps/cvMJpn2NRzND3r6G7" target="_blank">
                     <br />
                     <span className="underline cursor-pointer">
                       (Click here to reach our location)
                     </span>
-                  </a>
+                  </Link>
                 </div>
               </div>
               <p className="text-xl flex tracking-widest mb-8">
