@@ -11,9 +11,7 @@ export default function NavBar() {
   const [darkMode, setDarkMode] = useState(false);
 
   useEffect(() => {
-    const isDarkMode = window.matchMedia(
-      "(prefers-color-scheme: dark)"
-    ).matches;
+    const isDarkMode = JSON.parse(localStorage.getItem("darkMode"));
     setDarkMode(isDarkMode);
   }, []);
 
@@ -27,6 +25,7 @@ export default function NavBar() {
     } else {
       document.documentElement.classList.remove("dark");
     }
+    localStorage.setItem("darkMode", JSON.stringify(darkMode));
   }, [darkMode]);
 
   return (
