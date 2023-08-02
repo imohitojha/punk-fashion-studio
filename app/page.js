@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <main className="relative mt-4 container-fluid">
       <NavBar />
-      <section id="second-section" className="relative top-[4rem]">
+      <section id="second-section" className="relative 2xl:top-[4rem] xl:top-[4rem] lg:top-[4rem] md:top-[4rem] sm:top-[4rem] top-[1rem]">
         <div className="absolute z-10 w-full inset-0 bg-black bg-opacity-70">
           <Image
             className="w-4/12 absolute left-[31.25rem] top-28 mr-20 opacity-30"
