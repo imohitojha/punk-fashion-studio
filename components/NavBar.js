@@ -30,7 +30,7 @@ export default function NavBar() {
 
   return (
     <>
-      <button onClick={toggleDarkMode} className="absolute right-16 text-sm">
+      <button onClick={toggleDarkMode} className="absolute 2xl:right-20 xl:right-16 lg:right-16 md:right-8 sm:right-4 right-4 top-0 text-md">
         {darkMode ? (
           <div className="flex items-center">
             <FaSun /> <p className="m-2">Light Mode</p>
@@ -43,16 +43,16 @@ export default function NavBar() {
       </button>
       <section id="top-section">
         <Image
-          className="w-1/12 absolute left-16 top-0 mr-20 logo-bounce"
+          className="2xl:w-1/12 xl:w-[9rem] lg:w-1/12 md:w-1/6 sm:w-1/6 w-1/5 absolute lg:left-16 md:left-16 sm:left-8 left-8 2xl:top-0 xl:top-0 lg:top-0 md:top-0 sm:top-6 top-6 mr-20 logo-bounce"
           src={Logo}
           alt="Logo"
         />
-        <p className="absolute z-10 top-8 left-44 text-[#ff3d3e] text-5xl font-bold uppercase font-oswald">
+        <p className="absolute z-10 top-8 2xl:left-52 xl:left-48 lg:left-44 md:left-44 sm:left-36 left-28 text-[#ff3d3e] 2xl:text-5xl xl:text-5xl lg:text-4xl md:text-3xl text-xl font-bold uppercase font-oswald">
           The Punk Fashion Studio
         </p>
-        <p className="absolute top-[85px] left-44">We're PUNKS...</p>
+        <p className="absolute 2xl:top-24 xl:top-24 md:top-20 sm:top-20 top-16 2xl:left-52 xl:left-48 lg:left-44 md:left-44 sm:left-36 left-28 2xl:text-xl xl:text-lg lg:text-lg md:text-lg sm:text-md text-sm">We're PUNKS...</p>
       </section>
-      <section className="relative top-40 z-20" id="nav-section">
+      <section className="relative 2xl:top-40 xl:top-40 lg:top-40 md:top-36 sm:top-36 top-28 z-20" id="nav-section">
         <hr className="m-auto w-11/12 mb-4" />
         <nav className="flex justify-center items-center w-full h-20">
           <div className="absolute inset-0 bg-black bg-opacity-40"></div>
@@ -64,7 +64,7 @@ export default function NavBar() {
               <div className="absolute left-0 bottom-0 h-1 w-full bg-[#ff3d3e] transform scale-x-0 group-hover:scale-x-100 transition ease-in-out duration-500"></div>
             </li>
             <li className="relative group text-white text-xl font-bold uppercase font-oswald p-8">
-              <Link href="/" className="transition ease-in-out duration-500">
+              <Link href="/#services" className="transition ease-in-out duration-500">
                 Services
               </Link>
               <div className="absolute left-0 bottom-0 h-1 w-full bg-[#ff3d3e] transform scale-x-0 group-hover:scale-x-100 transition ease-in-out duration-500"></div>
@@ -80,7 +80,7 @@ export default function NavBar() {
             </li>
             <li className="relative group text-white text-xl font-bold uppercase font-oswald p-8">
               <Link
-                href="/#gallery"
+                href="/#services"
                 className="transition ease-in-out duration-500"
               >
                 Gallery
@@ -89,7 +89,7 @@ export default function NavBar() {
             </li>
             <li className="relative group text-white text-xl font-bold uppercase font-oswald p-8">
               <Link
-                href="/#contact-us"
+                href="#contact-us"
                 className="transition ease-in-out duration-500"
               >
                 Contact

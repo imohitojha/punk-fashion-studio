@@ -3,32 +3,30 @@
 import Image from "next/image";
 import HeroImage from "../public/images/PUNK.png aa.png";
 import Logo from "../public/images/the punk logo png white.png";
-import { Icon } from "@iconify/react";
 import NavBar from "@/components/NavBar";
 import Link from "next/link";
 import Footer from "@/components/Footer";
 
 export default function Home() {
-
   return (
-    <main className="relative mt-8 container-fluid">
+    <main className="relative mt-4 container-fluid">
       <NavBar />
-      <section id="second-section" className="relative top-[64px]">
+      <section id="second-section" className="relative top-[4rem]">
         <div className="absolute z-10 w-full inset-0 bg-black bg-opacity-70">
           <Image
-            className="w-4/12 absolute left-[500px] top-28 mr-20 opacity-30"
+            className="w-4/12 absolute left-[31.25rem] top-28 mr-20 opacity-30"
             src={Logo}
             alt="Logo"
           />
-          <h2 className="uppercase text-8xl text-white font-bold font-oswald relative float-right right-[110px] top-96">
+          <h2 className="uppercase text-8xl text-white font-bold font-oswald relative float-right right-[6.875rem] top-96">
             The Punk
           </h2>
-          <h3 className="uppercase relative text-white tracking-[1.14em] top-[500px] left-[960px]">
+          <h3 className="uppercase relative text-white tracking-[1.14em] top-[31.25rem] left-[960px]">
             Fashion Studio
           </h3>
-          <hr className="relative top-[200px] left-56 w-1/6 border-white border-8 float-left" />
-          <hr className="relative top-[312px] left-[-128px] w-1/6 border-white border-8 float-left rotate-90" />
-          <hr className="relative top-[508px] w-5/12 border-[#ff3d3e] border-8 float-right right-[-384px]" />
+          <hr className="relative top-[12.4rem] left-56 w-1/6 border-8 float-left" />
+          <hr className="relative top-[20.2rem] -left-[10.2rem] w-1/6 border-8 float-left rotate-90" />
+          <hr className="relative top-[31.75rem] w-5/12 border-[#ff3d3e] border-8 float-right -right-[23rem]" />
         </div>
         <div
           className="blur-sm"
@@ -51,7 +49,10 @@ export default function Home() {
           width="100vh"
         />
         <div className="z-10 flex items-center justify-center relative top-[-400px]">
-          <Link href="/form" className="bg-[#ff3d3e] rounded-full w-1/3 text-3xl h-32 font-bold uppercase font-jost shadow-custom text-center pt-12">
+          <Link
+            href="/form"
+            className="bg-[#ff3d3e] rounded-full w-1/3 text-3xl h-32 font-bold uppercase font-jost shadow-custom text-center pt-12"
+          >
             Book Your Appointment
           </Link>
         </div>
@@ -141,67 +142,68 @@ export default function Home() {
           boundary-pushing community.
         </p>
       </section>
-      <section id="gallery" className="relative ">
+      <section id="services" className="relative ">
         <div className="flex justify-center items-center">
-          <h1 className="text-5xl font-bold tracking-widest font-comforter text-[#ff3d3e]">
-            Gallery
+          <h1 className="text-6xl font-bold tracking-widest font-comforter">
+            Services
           </h1>
         </div>
       </section>
       <section
-        id="gallery"
-        className="h-auto bg-darkslateblue py-6 sm:pt-20 sm:pb-28 px-4 xs:px-12 sm:px-20 lg:px-28 xl:px-36 2xl:px-80 3xl:px-96 flex justify-center text-black"
+        id="services"
+        className="h-auto bg-darkslateblue py-6 sm:pt-20 sm:pb-28 px-4 xs:px-12 sm:px-20 lg:px-28 xl:px-36 2xl:px-30 3xl:px-96 flex justify-center text-black"
       >
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 w-fit">
-          <div className="relative w-fit shadow-custom-dark mr-[1.5rem]">
-            <div className="absolute bottom-0 h-24 bg-[#ff3d3e] opacity-70 text-4xl font-oswald p-4 text-left w-full flex flex-col justify-between">
-              <p>Tattoo</p>
-              <Link href="/tattoo" className="text-left text-[1rem] text-coral flex items-center font-jost">
-                Explore full gallery
-                <Icon
-                  className="rotate-[135deg] ml-4"
-                  icon="teenyicons:arrow-solid"
-                />
-              </Link>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 gap-6 w-fit">
+          <Link href="/tattoo">
+            <div className="relative w-fit shadow-custom-dark">
+              <div className="absolute bottom-0 h-24 bg-[#ff3d3e] opacity-70 text-4xl font-oswald p-4 text-left w-full flex flex-col justify-between">
+                <p>Tattoo</p>
+                <span className="text-left text-[1rem] text-coral flex items-center font-jost">
+                  Get your Tattoo now
+                </span>
+              </div>
+              <Image
+                src="/images/image_6483441 (2).JPG"
+                width={392}
+                height={441}
+                alt=""
+              />
             </div>
-            <Image
-              src="/images/image_6483441 (2).JPG"
-              width={392}
-              height={441}
-              alt=""
-            />
-          </div>
-          <div className="relative w-fit shadow-custom-dark mr-[1.5rem]">
-            <div className="absolute bottom-0 h-24 bg-[#ff3d3e] opacity-70 text-4xl font-oswald p-4 text-left w-full flex flex-col justify-between">
-              <p>Salon</p>
-              <button className="text-left text-[1rem] text-coral flex items-center font-jost">
-                Explore full gallery
-                <Icon
-                  className="rotate-[135deg] ml-4"
-                  icon="teenyicons:arrow-solid"
-                />
-              </button>
+          </Link>
+
+          <Link href="/#services">
+            <div className="relative w-fit shadow-custom-dark">
+              <div className="absolute bottom-0 h-24 bg-[#ff3d3e] opacity-70 text-4xl font-oswald p-4 text-left w-full flex flex-col justify-between">
+                <p>Salon</p>
+                <button className="text-left text-[1rem] text-coral flex items-center font-jost">
+                  Go with the Trend
+                </button>
+              </div>
+              <Image
+                src="/images/IMG-9291.jpg"
+                width={392}
+                height={441}
+                alt=""
+              />
             </div>
-            <Image src="/images/IMG-9291.jpg" width={392} height={441} alt="" />
-          </div>
-          <div className="relative w-fit shadow-custom-dark mr-[1.5rem]">
-            <div className="absolute bottom-0 h-24 bg-[#ff3d3e] opacity-70 text-3xl font-oswald p-4 text-left w-full flex flex-col justify-between">
-              <p>The Punk School</p>
-              <button className="text-left text-[1rem] text-coral flex items-center font-jost">
-                Explore course
-                <Icon
-                  className="rotate-[135deg] ml-4"
-                  icon="teenyicons:arrow-solid"
-                />
-              </button>
+          </Link>
+
+          <Link href="/#services">
+            <div className="relative w-fit shadow-custom-dark">
+              <div className="absolute bottom-0 h-24 bg-[#ff3d3e] opacity-70 text-3xl font-oswald p-4 text-left w-full flex flex-col justify-between">
+                <p>The Punk School</p>
+                <button className="text-left text-[1rem] text-coral flex items-center font-jost">
+                  Explore our exclusive courses
+                </button>
+              </div>
+              <Image
+                src="/images/image_6483441 (4).JPG"
+                width={392}
+                height={441}
+                alt=""
+              />
             </div>
-            <Image
-              src="/images/image_6483441 (4).JPG"
-              width={392}
-              height={441}
-              alt=""
-            />
-          </div>
+          </Link>
         </div>
       </section>
       <section id="our-specialists" className="relative mb-16">
@@ -284,7 +286,7 @@ export default function Home() {
           </h1>
         </div>
         <div className="flex flex-col justify-center items-center">
-          <h1 className="text-8xl uppercase font-bold tracking-tight font-bebas-neue mb-12">
+          <h1 className="text-8xl uppercase font-bold tracking-wide font-bebas-neue mb-12">
             20% Off on Tattoo
           </h1>
           <p className="text-3xl tracking-widest font-jost">

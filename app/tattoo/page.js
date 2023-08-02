@@ -4,9 +4,9 @@ import Image from "next/image";
 import { Icon } from "@iconify/react";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
+import Link from "next/link";
 
-export default function Home() {
-
+export default function Tattoo() {
   return (
     <>
       <NavBar />
@@ -44,28 +44,30 @@ export default function Home() {
       </section>
       <section
         id="gallery"
-        className="h-auto py-6 sm:pt-20 sm:pb-28 px-4 xs:px-12 sm:px-20 lg:px-28 xl:px-36 2xl:px-80 3xl:px-96 flex justify-center text-black"
+        className="h-auto py-6 sm:pt-20 sm:pb-28 px-4 xs:px-12 sm:px-20 lg:px-28 xl:px-36 2xl:px-40 3xl:px-96 flex justify-center text-black"
       >
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 w-fit">
-          <div className="relative w-fit shadow-custom-dark mr-[1.5rem]">
-            <div className="absolute bottom-0 h-24 bg-[#ff3d3e] opacity-70 text-4xl font-oswald p-4 text-left w-full flex flex-col justify-between">
-              <p>Lord Shiva Tattoos</p>
-              <button className="text-left text-[1rem] text-coral flex items-center font-jost">
-                Explore full gallery
-                <Icon
-                  className="rotate-[135deg] ml-4"
-                  icon="teenyicons:arrow-solid"
-                />
-              </button>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 w-fit">
+          <Link href="/tattoo/shiva">
+            <div className="relative w-fit shadow-custom-dark">
+              <div className="absolute bottom-0 h-24 bg-[#ff3d3e] opacity-70 text-3xl font-oswald p-4 text-left w-full flex flex-col justify-between">
+                <p>Lord Shiva Tattoos</p>
+                <button className="text-left text-[1rem] text-coral flex items-center font-jost">
+                  Explore full gallery
+                  <Icon
+                    className="rotate-[135deg] ml-4"
+                    icon="teenyicons:arrow-solid"
+                  />
+                </button>
+              </div>
+              <Image
+                src="/images/shiva-1.JPG"
+                width={392}
+                height={441}
+                alt=""
+              />
             </div>
-            <Image
-              src="/images/lord-shiva.JPG"
-              width={392}
-              height={441}
-              alt=""
-            />
-          </div>
-          <div className="relative w-fit shadow-custom-dark mr-[1.5rem]">
+          </Link>
+          <div className="relative w-fit shadow-custom-dark">
             <div className="absolute bottom-0 h-24 bg-[#ff3d3e] opacity-70 text-4xl font-oswald p-4 text-left w-full flex flex-col justify-between">
               <p>Minimal Tattoos</p>
               <button className="text-left text-[1rem] text-coral flex items-center font-jost">
@@ -76,9 +78,14 @@ export default function Home() {
                 />
               </button>
             </div>
-            <Image src="/images/minimal-sun-moon.JPG" width={392} height={441} alt="" />
+            <Image
+              src="/images/minimal-sun-moon.JPG"
+              width={392}
+              height={441}
+              alt=""
+            />
           </div>
-          <div className="relative w-fit shadow-custom-dark mr-[1.5rem]">
+          <div className="relative w-fit shadow-custom-dark">
             <div className="absolute bottom-0 h-24 bg-[#ff3d3e] opacity-70 text-4xl font-oswald p-4 text-left w-full flex flex-col justify-between">
               <p>Shoulder Tattoos</p>
               <button className="text-left text-[1rem] text-coral flex items-center font-jost">
@@ -96,8 +103,8 @@ export default function Home() {
               alt=""
             />
           </div>
-          <div className="relative w-fit shadow-custom-dark mr-[1.5rem]">
-            <div className="absolute bottom-0 h-24 bg-[#ff3d3e] opacity-70 text-4xl font-oswald p-4 text-left w-full flex flex-col justify-between">
+          <div className="relative w-fit shadow-custom-dark">
+            <div className="absolute bottom-0 h-24 bg-[#ff3d3e] opacity-70 text-3xl font-oswald p-4 text-left w-full flex flex-col justify-between">
               <p>Lord Shiva Tattoos</p>
               <button className="text-left text-[1rem] text-coral flex items-center font-jost">
                 Explore full gallery
@@ -108,13 +115,13 @@ export default function Home() {
               </button>
             </div>
             <Image
-              src="/images/lord-shiva.JPG"
+              src="/images/shiva-1.JPG"
               width={392}
               height={441}
               alt=""
             />
           </div>
-          <div className="relative w-fit shadow-custom-dark mr-[1.5rem]">
+          <div className="relative w-fit shadow-custom-dark">
             <div className="absolute bottom-0 h-24 bg-[#ff3d3e] opacity-70 text-4xl font-oswald p-4 text-left w-full flex flex-col justify-between">
               <p>Minimal Tattoos</p>
               <button className="text-left text-[1rem] text-coral flex items-center font-jost">
@@ -125,9 +132,14 @@ export default function Home() {
                 />
               </button>
             </div>
-            <Image src="/images/minimal-sun-moon.JPG" width={392} height={441} alt="" />
+            <Image
+              src="/images/minimal-sun-moon.JPG"
+              width={392}
+              height={441}
+              alt=""
+            />
           </div>
-          <div className="relative w-fit shadow-custom-dark mr-[1.5rem]">
+          <div className="relative w-fit shadow-custom-dark">
             <div className="absolute bottom-0 h-24 bg-[#ff3d3e] opacity-70 text-4xl font-oswald p-4 text-left w-full flex flex-col justify-between">
               <p>Shoulder Tattoos</p>
               <button className="text-left text-[1rem] text-coral flex items-center font-jost">
