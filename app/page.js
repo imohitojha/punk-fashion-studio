@@ -17,18 +17,18 @@ export default function Home() {
         alt=""
         className="relative w-full 2xl:top-[4rem] xl:top-[4rem] lg:top-[4rem] md:top-[4rem] sm:top-[4rem] top-[7rem]"
       />
-      <section id="third-section">
-        <div className="absolute z-20 w-full top-0 bg-black bg-opacity-70" />
+      <section id="third-section" className="2xl:mt-0 xl:mt-0 lg:mt-0 md:mt-0 mt-20">
+        <div className="z-20 w-full bg-black bg-opacity-70" />
         <Image
           className="w-3/4 m-auto relative top-16"
           src={HeroImage}
           alt="Hero Image"
           width="100vh"
         />
-        <div className="z-10 flex items-center justify-center relative top-[-400px]">
+        <div className="z-10 flex items-center justify-center relative 2xl:top-[-28rem] xl:top-[-22rem] lg:top-[-18rem] md:top-[-12rem] top-[-5rem]">
           <Link
             href="/form"
-            className="bg-[#ff3d3e] rounded-full w-1/3 text-3xl h-32 font-bold uppercase font-jost shadow-custom text-center pt-12"
+            className="bg-[#ff3d3e] flex items-center justify-center rounded-full w-2/5 2xl:text-4xl xl:text-3xl lg:text-2xl md:text-xl text-sm 2xl:h-32 xl:h-28 lg:h-20 md:h-16 h-12 font-bold uppercase font-jost shadow-custom text-center"
           >
             Book Your Appointment
           </Link>
