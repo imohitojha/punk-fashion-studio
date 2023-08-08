@@ -124,7 +124,7 @@ export default function NavBar() {
                 <li className={`relative group text-white font-bold uppercase font-oswald ${navbar ? 'p-1 text-md' : 'p-8 text-xl'}`}>
                   <Link
                     href="/#services"
-                    className="transition ease-in-out duration-500"
+                    className="transition ease-in-out duration-500 bg-black"
                   >
                     Services
                   </Link>
@@ -133,7 +133,7 @@ export default function NavBar() {
                 <li className={`relative group text-white font-bold uppercase font-oswald ${navbar ? 'p-1 text-md' : 'p-8 text-xl'}`}>
                   <Link
                     href="/#about-us"
-                    className="transition ease-in-out duration-500"
+                    className="transition ease-in-out duration-500 bg-black"
                   >
                     About
                   </Link>
@@ -142,7 +142,7 @@ export default function NavBar() {
                 <li className={`relative group text-white font-bold uppercase font-oswald ${navbar ? 'p-1 text-md' : 'p-8 text-xl'}`}>
                   <Link
                     href="/#services"
-                    className="transition ease-in-out duration-500"
+                    className="transition ease-in-out duration-500 bg-black"
                   >
                     Gallery
                   </Link>
@@ -151,7 +151,7 @@ export default function NavBar() {
                 <li className={`relative group text-white font-bold uppercase font-oswald ${navbar ? 'p-1 text-md' : 'p-8 text-xl'}`}>
                   <Link
                     href="#contact-us"
-                    className="transition ease-in-out duration-500"
+                    className="transition ease-in-out duration-500 bg-black"
                   >
                     Contact
                   </Link>
