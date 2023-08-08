@@ -1,8 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
 "use client";
 import Image from "next/image";
-import HeroImage from "../public/images/PUNK.png aa.png";
+import HeroImage from "../public/images/PUNK-hero.png";
 import Logo from "../public/images/the punk logo png white.png";
+import Banner from "../public/images/custom-banner.png";
 import NavBar from "@/components/NavBar";
 import Link from "next/link";
 import Footer from "@/components/Footer";
@@ -11,35 +12,11 @@ export default function Home() {
   return (
     <main className="relative mt-4 container-fluid">
       <NavBar />
-      <section id="second-section" className="relative 2xl:top-[4rem] xl:top-[4rem] lg:top-[4rem] md:top-[4rem] sm:top-[4rem] top-[1rem]">
-        <div className="absolute z-10 w-full inset-0 bg-black bg-opacity-70">
-          <Image
-            className="w-4/12 absolute left-[31.25rem] top-28 mr-20 opacity-30"
-            src={Logo}
-            alt="Logo"
-          />
-          <h2 className="uppercase text-8xl text-white font-bold font-oswald relative float-right right-[6.875rem] top-96">
-            The Punk
-          </h2>
-          <h3 className="uppercase relative text-white tracking-[1.14em] top-[31.25rem] left-[960px]">
-            Fashion Studio
-          </h3>
-          <hr className="relative top-[12.4rem] left-56 w-1/6 border-8 float-left" />
-          <hr className="relative top-[20.2rem] -left-[10.2rem] w-1/6 border-8 float-left rotate-90" />
-          <hr className="relative top-[31.75rem] w-5/12 border-[#ff3d3e] border-8 float-right -right-[23rem]" />
-        </div>
-        <div
-          className="blur-sm"
-          style={{
-            backgroundImage: `url('/images/IMG_6095.JPEG')`,
-            backgroundPosition: "center",
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "cover",
-            width: "100%",
-            height: "600px",
-          }}
-        ></div>
-      </section>
+      <Image
+        src={Banner}
+        alt=""
+        className="relative w-full 2xl:top-[4rem] xl:top-[4rem] lg:top-[4rem] md:top-[4rem] sm:top-[4rem] top-[7rem]"
+      />
       <section id="third-section">
         <div className="absolute z-20 w-full top-0 bg-black bg-opacity-70" />
         <Image
