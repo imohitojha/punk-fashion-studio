@@ -115,10 +115,10 @@ export default function Form() {
                     id="category"
                     name="category"
                     required
-                    className="block w-full text-black tracking-wider uppercase font-oswald rounded-md border-0 py-2 px-1.5 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                    className="block w-full text-black tracking-wider uppercase font-oswald rounded-md border-0 py-2 px-1.5 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600"
                   >
-                    <option value="salon" className="text-base tracking-wider uppercase font-oswald">Salon</option>
-                    <option value="tattoo" className="text-base tracking-wider uppercase font-oswald">Tattoo</option>
+                    <option value="salon">Salon</option>
+                    <option value="tattoo">Tattoo</option>
                   </select>
                 </div>
               </div>
