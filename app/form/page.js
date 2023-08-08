@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 import NavBar from "@/components/NavBar";
 import Image from "next/image";
 import React from "react";
-import HeroImage from "../../public/images/PUNK.png aa.png";
+import HeroImage from "../../public/images/PUNK-hero.png";
 
 export default function Form() {
   return (
@@ -16,7 +16,7 @@ export default function Form() {
             <Image
               className="mx-auto h-10 w-auto"
               src={HeroImage}
-              alt="Your Company"
+              alt=""
             />
             <h2 className="mt-6 text-center text-3xl font-oswald leading-9 text-[#ff3d3e]">
               Book Your Appointment
