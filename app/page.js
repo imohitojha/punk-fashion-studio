@@ -119,7 +119,7 @@ export default function Home() {
           boundary-pushing community.
         </p>
       </section>
-      <section id="services" className="relative ">
+      <section id="services" className="relative">
         <div className="flex justify-center items-center">
           <h1 className="2xl:text-6xl lg:text-5xl md:text-4xl text-3xl font-bold tracking-widest font-comforter">
             Our Services
@@ -128,12 +128,12 @@ export default function Home() {
       </section>
       <section
         id="services"
-        className="h-auto bg-darkslateblue md:mb-0 mb-16 py-6 sm:pt-20 sm:pb-20 md:pt-10 px-12 sm:px-20 md:px-2 lg:px-28 xl:px-36 2xl:px-30 3xl:px-96 flex justify-center text-black"
+        className="h-auto bg-darkslateblue md:mb-0 mb-16 py-6 sm:pt-20 sm:pb-20 md:pt-10 px-12 sm:px-2 lg:px-28 xl:px-36 2xl:px-30 3xl:px-96 flex justify-center text-black"
       >
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 gap-6 w-fit">
+        <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 gap-6 w-fit">
           <Link href="/tattoo">
             <div className="relative w-fit shadow-custom-dark">
-              <div className="absolute bottom-0 h-24 md:h-20 lg:h-24 bg-[#ff3d3e] opacity-70 text-4xl md:text-3xl lg:text-4xl font-oswald p-4 md:py-2 lg:p-4 text-left w-full flex flex-col justify-between">
+              <div className="absolute bottom-0 h-24 sm:h-20 lg:h-24 bg-[#ff3d3e] opacity-70 text-4xl sm:text-3xl lg:text-4xl font-oswald p-4 sm:py-2 lg:p-4 text-left w-full flex flex-col justify-between">
                 <p>Tattoo</p>
                 <span className="text-left text-[1rem] text-coral flex items-center font-jost">
                   Get your Tattoo now
@@ -150,7 +150,7 @@ export default function Home() {
 
           <Link href="/#services">
             <div className="relative w-fit shadow-custom-dark">
-              <div className="absolute bottom-0 h-24 md:h-20 lg:h-24 bg-[#ff3d3e] opacity-70 text-4xl md:text-3xl lg:text-4xl font-oswald p-4 md:py-2 lg:p-4 text-left w-full flex flex-col justify-between">
+              <div className="absolute bottom-0 h-24 sm:h-20 lg:h-24 bg-[#ff3d3e] opacity-70 text-4xl sm:text-3xl lg:text-4xl font-oswald p-4 sm:py-2 lg:p-4 text-left w-full flex flex-col justify-between">
                 <p>Salon</p>
                 <button className="text-left text-[1rem] text-coral flex items-center font-jost">
                   Go with the Trend
@@ -167,7 +167,7 @@ export default function Home() {
 
           <Link href="/#services">
             <div className="relative w-fit shadow-custom-dark">
-              <div className="absolute bottom-0 h-24 md:h-20 lg:h-24 bg-[#ff3d3e] opacity-70 text-4xl md:text-3xl lg:text-4xl font-oswald p-4 md:py-2 lg:p-4 text-left w-full flex flex-col justify-between">
+              <div className="absolute bottom-0 h-24 sm:h-20 lg:h-24 bg-[#ff3d3e] opacity-70 text-4xl sm:text-3xl lg:text-4xl font-oswald p-4 sm:py-2 lg:p-4 text-left w-full flex flex-col justify-between">
                 <p>The Punk School</p>
                 <button className="text-left text-[1rem] text-coral flex items-center font-jost">
                   Explore our exclusive courses
@@ -183,14 +183,14 @@ export default function Home() {
           </Link>
         </div>
       </section>
-      <section id="our-specialists" className="relative mb-16">
+      <section id="our-specialists" className="relative mb-8">
         <div className="flex justify-center items-center">
           <h1 className="2xl:text-6xl lg:text-5xl md:text-4xl text-3xl font-bold tracking-widest font-comforter">
             Our Specialists
           </h1>
         </div>
       </section>
-      <section className="bg-whitesmoke pb-24 px-[8.75rem] flex justify-center">
+      <section className="bg-whitesmoke h-auto md:mb-0 mb-16 py-0 sm:pt-20 sm:pb-20 md:pt-10 px-12 sm:px-20 lg:px-28 xl:px-36 2xl:px-30 3xl:px-96 flex justify-center">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4 w-fit font-oswald">
           <div className="relative w-54 shadow-custom-dark">
             <Image
