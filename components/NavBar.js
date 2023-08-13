@@ -69,7 +69,7 @@ export default function NavBar() {
               <div className="flex items-center justify-between py-3 md:py-5 md:block">
                 <div className="md:hidden">
                   <button
-                    className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
+                    className="p-2 mt-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
                     onClick={() => setNavbar(!navbar)}
                   >
                     {navbar ? (
