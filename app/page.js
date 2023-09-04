@@ -222,35 +222,30 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="pb-24 px-[8.75rem] font-bebas-neue">
-        <div className="grid grid-cols-3 gap-4 content-center">
-          <div className="flex flex-col items-center">
-            <h1 className="text-8xl font-bold mb-12">5+</h1>
-            <p className="text-5xl font-bold uppercase text-[#ff3d3e]">
+      <section className="pb-24 px-8 font-bebas-neue">
+        <div className="grid md:grid-cols-3 grid-cols-1 gap-4 content-center">
+          <div className="flex flex-col my-4 items-center">
+            <h1 className="lg:text-8xl md:text-7xl text-5xl font-bold mb-4">5+</h1>
+            <p className="lg:text-5xl md:text-4xl text-3xl text-center font-bold uppercase text-[#ff3d3e]">
               Years Experience
             </p>
           </div>
-          <div className="flex flex-col items-center">
-            <Image
-              className="w-1/4 absolute top-[230rem] opacity-10 -z-10"
-              src={Logo}
-              alt="Logo"
-            />
-            <h1 className="text-8xl font-bold mb-12">7+</h1>
-            <p className="text-5xl font-bold uppercase text-[#ff3d3e]">
+          <div className="flex flex-col my-4 items-center">
+            <h1 className="lg:text-8xl md:text-7xl text-5xl font-bold mb-4">7+</h1>
+            <p className="lg:text-5xl md:text-4xl text-3xl text-center font-bold uppercase text-[#ff3d3e]">
               Clients from Cities
             </p>
           </div>
-          <div className="flex flex-col items-center">
-            <h1 className="text-8xl font-bold mb-12">1000+</h1>
-            <p className="text-5xl font-bold uppercase text-[#ff3d3e]">
+          <div className="flex flex-col my-4 items-center">
+            <h1 className="lg:text-8xl md:text-7xl text-5xl font-bold mb-4">1000+</h1>
+            <p className="lg:text-5xl md:text-4xl text-3xl text-center font-bold uppercase text-[#ff3d3e]">
               Clients
             </p>
           </div>
         </div>
       </section>
       <section
-        className="h-[18rem] pb-24 px-[8.75rem] bg-fixed bg-size-contain mb-32"
+        className="md:h-80 h-40 px-[8.75rem] bg-center bg-fixed bg-size-contain mb-20"
         style={{
           "background-image": "url('/images/image_6487327.JPG')",
           "background-repeat": "no-repeat",
@@ -258,15 +253,15 @@ export default function Home() {
       />
       <section id="special-offer" className="relative mb-16">
         <div className="flex justify-center items-center">
-          <h1 className="text-5xl font-bold tracking-widest font-comforter mb-8 text-[#ff3d3e]">
+          <h1 className="2xl:text-6xl lg:text-5xl md:text-4xl text-3xl font-bold tracking-widest font-comforter mb-8 text-[#ff3d3e]">
             Special Offers
           </h1>
         </div>
         <div className="flex flex-col justify-center items-center">
-          <h1 className="text-8xl uppercase font-bold tracking-wide font-bebas-neue mb-12">
+          <h1 className="lg:text-8xl md:text-6xl text-5xl text-center uppercase font-bold tracking-wide font-bebas-neue mb-8">
             20% Off on Tattoo
           </h1>
-          <p className="text-3xl tracking-widest font-jost">
+          <p className="lg:text-3xl md:text-2xl text-xl text-center md:tracking-widest tracking-wide font-jost">
             for minimum 5 square inches of tattoo size.
           </p>
         </div>
