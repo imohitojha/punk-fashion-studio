@@ -20,7 +20,7 @@ export default function Tattoo() {
         />
         <div>
           <h2></h2>
-          <p className="lg:text-3xl md:text-xl text-sm lg:px-24 md:px-16 px-4 text-right lg:font-thin md:font-extralight font-extralight lg:leading-[4rem] md:leading-9 leading-6">
+          <p className="lg:text-3xl md:text-xl text-sm lg:px-24 md:px-16 px-4 text-right lg:font-thin font-extralight lg:leading-[4rem] md:leading-9 leading-6">
             <span className="xl:text-8xl lg:text-7xl md:text-5xl text-3xl">T</span>he design incorporates the
             intricate detailing of realistic tattoo artistry with the bold and
             visionary strokes of abstract art. It features an amalgamation of
