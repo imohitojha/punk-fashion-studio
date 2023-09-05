@@ -5,6 +5,10 @@ import { Icon } from "@iconify/react";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 import Link from "next/link";
+import ArmTattoo from "../../public/images/Untitled.png"
+import Shiva from "../../public/images/shiva-1.JPG";
+import Minimal from "../../public/images/minimal-sun-moon.JPG"
+import Shoulder from "../../public/images/shoulder-rose.JPG"
 
 export default function Tattoo() {
   return (
@@ -13,7 +17,7 @@ export default function Tattoo() {
       <div className="w-full flex mt-44 items-center">
         <Image
           className="w-1/4"
-          src="/images/Untitled.png"
+          src={ArmTattoo}
           alt="arm-tattoo"
           width={1621}
           height={3579}
@@ -60,7 +64,7 @@ export default function Tattoo() {
                 </span>
               </div>
               <Image
-                src="/images/shiva-1.JPG"
+                src={Shiva}
                 width={392}
                 height={441}
                 alt=""
@@ -79,7 +83,7 @@ export default function Tattoo() {
               </span>
             </div>
             <Image
-              src="/images/minimal-sun-moon.JPG"
+              src={Minimal}
               width={392}
               height={441}
               alt=""
@@ -97,7 +101,7 @@ export default function Tattoo() {
               </button>
             </div>
             <Image
-              src="/images/shoulder-rose.JPG"
+              src={Shoulder}
               width={392}
               height={441}
               alt=""
@@ -116,7 +120,7 @@ export default function Tattoo() {
                 </span>
               </div>
               <Image
-                src="/images/shiva-1.JPG"
+                src={Shiva}
                 width={392}
                 height={441}
                 alt=""
@@ -135,7 +139,7 @@ export default function Tattoo() {
               </span>
             </div>
             <Image
-              src="/images/minimal-sun-moon.JPG"
+              src={Minimal}
               width={392}
               height={441}
               alt=""
@@ -153,7 +157,7 @@ export default function Tattoo() {
               </button>
             </div>
             <Image
-              src="/images/shoulder-rose.JPG"
+              src={Shoulder}
               width={392}
               height={441}
               alt=""

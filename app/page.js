@@ -2,8 +2,12 @@
 "use client";
 import Image from "next/image";
 import HeroImage from "../public/images/PUNK-hero.png";
-import Logo from "../public/images/the punk logo png white.png";
 import Banner from "../public/images/custom-banner.png";
+import Tattoo from "../public/images/image_6483441 (2).JPG"
+import Salon from "../public/images/IMG-9291.jpg"
+import PunkSchool from "../public/images/image_6483441 (4).JPG"
+import Pranjul from "../public/images/IMG_20220115_210534-1-1536x2048.jpg"
+import Ajitesh from "../public/images/008731A1-1BC4-4ADA-BBCD-228C14A55F3B.JPG"
 import NavBar from "@/components/NavBar";
 import Link from "next/link";
 import Footer from "@/components/Footer";
@@ -140,7 +144,7 @@ export default function Home() {
                 </span>
               </div>
               <Image
-                src="/images/image_6483441 (2).JPG"
+                src={Tattoo}
                 width={392}
                 height={441}
                 alt=""
@@ -157,7 +161,7 @@ export default function Home() {
                 </button>
               </div>
               <Image
-                src="/images/IMG-9291.jpg"
+                src={Salon}
                 width={392}
                 height={441}
                 alt=""
@@ -174,7 +178,7 @@ export default function Home() {
                 </button>
               </div>
               <Image
-                src="/images/image_6483441 (4).JPG"
+                src={PunkSchool}
                 width={392}
                 height={441}
                 alt=""
@@ -195,7 +199,7 @@ export default function Home() {
           <div className="relative w-54 shadow-custom-dark">
             <Image
               alt="training-thumbnail"
-              src="/images/IMG_20220115_210534-1-1536x2048.jpg"
+              src={Pranjul}
               width={396}
               height={397}
             />
@@ -209,7 +213,7 @@ export default function Home() {
           <div className="relative w-54 shadow-custom-dark">
             <Image
               alt="training-thumbnail"
-              src="/images/008731A1-1BC4-4ADA-BBCD-228C14A55F3B.JPG"
+              src={Ajitesh}
               width={396}
               height={397}
             />

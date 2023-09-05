@@ -1,9 +1,12 @@
 /* eslint-disable react/no-unescaped-entities */
 "use client";
 import Image from "next/image";
-import Logo from "../../../public/images/the punk logo png white.png";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
+import Logo from "../../../public/images/the punk logo png white.png";
+import Shiva1 from "../../../public/images/shiva-1.JPG";
+import Shiva2 from "../../../public/images/shiva-2.JPG";
+import Shiva3 from "../../../public/images/shiva-3.JPG";
 
 export default function Shiva() {
   return (
@@ -42,22 +45,22 @@ export default function Shiva() {
       >
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 w-fit">
           <div className="relative w-fit shadow-custom-dark">
-            <Image src="/images/shiva-1.JPG" width={500} height={600} alt="" />
+            <Image src={Shiva1} width={500} height={600} alt="" />
           </div>
           <div className="relative w-fit shadow-custom-dark">
-            <Image src="/images/shiva-2.JPG" width={500} height={600} alt="" />
+            <Image src={Shiva2} width={500} height={600} alt="" />
           </div>
           <div className="relative w-fit shadow-custom-dark">
-            <Image src="/images/shiva-3.JPG" width={500} height={600} alt="" />
+            <Image src={Shiva3} width={500} height={600} alt="" />
           </div>
           <div className="relative w-fit shadow-custom-dark">
-            <Image src="/images/shiva-1.JPG" width={500} height={600} alt="" />
+            <Image src={Shiva1} width={500} height={600} alt="" />
           </div>
           <div className="relative w-fit shadow-custom-dark">
-            <Image src="/images/shiva-2.JPG" width={500} height={600} alt="" />
+            <Image src={Shiva2} width={500} height={600} alt="" />
           </div>
           <div className="relative w-fit shadow-custom-dark">
-            <Image src="/images/shiva-3.JPG" width={500} height={600} alt="" />
+            <Image src={Shiva3} width={500} height={600} alt="" />
           </div>
         </div>
       </section>
