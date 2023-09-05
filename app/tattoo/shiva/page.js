@@ -25,7 +25,9 @@ export default function Shiva() {
           <span className="xl:text-8xl lg:text-7xl md:text-5xl text-2xl md:px-24 px-8 text-left">
             conceptual Lord Shiva <br />
           </span>
-          <span className="xl:text-8xl lg:text-7xl md:text-5xl text-2xl md:px-24 px-8 text-left">Tattoos</span>
+          <span className="xl:text-8xl lg:text-7xl md:text-5xl text-2xl md:px-24 px-8 text-left">
+            Tattoos
+          </span>
           <div className="flex justify-end lg:mt-4 md:mt-8 mt-4">
             <span className="lg:w-3/4 w-5/6 md:text-3xl text-md md:px-8 -mr-4 text-right font-extralight lg:leading-[4rem] md:leading-[3.25rem] leading-7">
               Think about religious tattoos and Lord Shiva is perhaps the first
