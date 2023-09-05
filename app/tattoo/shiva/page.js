@@ -3,10 +3,10 @@
 import Image from "next/image";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
-import Logo from "../../../public/images/the punk logo png white.png";
-import Shiva1 from "../../../public/images/shiva-1.JPG";
-import Shiva2 from "../../../public/images/shiva-2.JPG";
-import Shiva3 from "../../../public/images/shiva-3.JPG";
+import Logo from "./../../../public/images/the punk logo png white.png";
+import Shiva1 from "./../../../public/images/shiva-1.JPG";
+import Shiva2 from "./../../../public/images/shiva-2.JPG";
+import Shiva3 from "./../../../public/images/shiva-3.JPG";
 
 export default function Shiva() {
   return (

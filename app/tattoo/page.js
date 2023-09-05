@@ -5,10 +5,10 @@ import { Icon } from "@iconify/react";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 import Link from "next/link";
-import ArmTattoo from "../../public/images/Untitled.png";
-import Shiva from "../../public/images/shiva-1.JPG";
-import Minimal from "../../public/images/minimal-sun-moon.JPG";
-import Shoulder from "../../public/images/shoulder-rose.JPG";
+import ArmTattoo from "./../../public/images/Untitled.png";
+import Shiva from "./../../public/images/shiva-1.JPG";
+import Minimal from "./../../public/images/minimal-sun-moon.JPG";
+import Shoulder from "./../../public/images/shoulder-rose.JPG";
 
 export default function Tattoo() {
   return (
