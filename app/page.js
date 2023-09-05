@@ -7,7 +7,7 @@ import Tattoo from "../public/images/image_6483441 (2).JPG"
 import Salon from "../public/images/IMG-9291.jpg"
 import PunkSchool from "../public/images/image_6483441 (4).JPG"
 import Pranjul from "../public/images/IMG_20220115_210534-1-1536x2048.jpg"
-import Ajitesh from "../public/images/008731A1-1BC4-4ADA-BBCD-228C14A55F3B.JPG"
+import Ajitesh from "../public/images/008731A1-1BC4-4ADA-BBCD-228C14A55F3B.jpg"
 import NavBar from "@/components/NavBar";
 import Link from "next/link";
 import Footer from "@/components/Footer";

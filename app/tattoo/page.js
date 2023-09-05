@@ -6,9 +6,9 @@ import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 import Link from "next/link";
 import ArmTattoo from "./../../public/images/Untitled.png";
-import Shiva from "./../../public/images/shiva-1.JPG";
-import Minimal from "./../../public/images/minimal-sun-moon.JPG";
-import Shoulder from "./../../public/images/shoulder-rose.JPG";
+import Shiva from "./../../public/images/shiva-1.jpg";
+import Minimal from "./../../public/images/minimal-sun-moon.jpg";
+import Shoulder from "./../../public/images/shoulder-rose.jpg";
 
 export default function Tattoo() {
   return (
