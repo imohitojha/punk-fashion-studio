@@ -20,8 +20,8 @@ export default function Tattoo() {
         />
         <div>
           <h2></h2>
-          <p className="text-3xl px-24 text-right font-thin leading-[4rem]">
-            <span className="text-8xl">T</span>he design incorporates the
+          <p className="lg:text-3xl md:text-xl text-sm lg:px-24 md:px-16 px-4 text-right lg:font-thin md:font-extralight font-extralight lg:leading-[4rem] md:leading-9 leading-6">
+            <span className="xl:text-8xl lg:text-7xl md:text-5xl text-3xl">T</span>he design incorporates the
             intricate detailing of realistic tattoo artistry with the bold and
             visionary strokes of abstract art. It features an amalgamation of
             geometric shapes.
@@ -35,29 +35,29 @@ export default function Tattoo() {
           </p>
         </div>
       </div>
-      <section id="gallery" className="relative mt-44">
+      <section id="gallery" className="relative md:mt-44 mt-20">
         <div className="flex justify-center items-center">
-          <h1 className="text-5xl font-bold tracking-widest font-oswald uppercase text-[#ff3d3e]">
+          <h1 className="md:text-5xl text-4xl font-bold tracking-widest font-oswald uppercase text-[#ff3d3e]">
             Tattoo Categories
           </h1>
         </div>
       </section>
       <section
         id="gallery"
-        className="h-auto py-6 sm:pt-20 sm:pb-28 px-4 xs:px-12 sm:px-20 lg:px-28 xl:px-36 2xl:px-40 3xl:px-96 flex justify-center text-black"
+        className="h-auto bg-darkslateblue py-6 sm:pt-20 sm:pb-20 md:pt-10 px-12 sm:px-2 lg:px-28 xl:px-36 2xl:px-30 3xl:px-96 flex justify-center text-black"
       >
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 w-fit">
+        <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 gap-6 w-fit">
           <Link href="/tattoo/shiva">
             <div className="relative w-fit shadow-custom-dark">
-              <div className="absolute bottom-0 h-24 bg-[#ff3d3e] opacity-70 text-3xl font-oswald p-4 text-left w-full flex flex-col justify-between">
+              <div className="absolute bottom-0 h-24 sm:h-20 lg:h-24 bg-[#ff3d3e] opacity-70 text-4xl sm:text-2xl lg:text-4xl font-oswald p-4 sm:py-2 lg:p-4 text-left w-full flex flex-col justify-between">
                 <p>Lord Shiva Tattoos</p>
-                <button className="text-left text-[1rem] text-coral flex items-center font-jost">
+                <span className="text-left text-[1rem] text-coral flex items-center font-jost">
                   Explore full gallery
                   <Icon
                     className="rotate-[135deg] ml-4"
                     icon="teenyicons:arrow-solid"
                   />
-                </button>
+                </span>
               </div>
               <Image
                 src="/images/shiva-1.JPG"
@@ -68,15 +68,15 @@ export default function Tattoo() {
             </div>
           </Link>
           <div className="relative w-fit shadow-custom-dark">
-            <div className="absolute bottom-0 h-24 bg-[#ff3d3e] opacity-70 text-4xl font-oswald p-4 text-left w-full flex flex-col justify-between">
+            <div className="absolute bottom-0 h-24 sm:h-20 lg:h-24 bg-[#ff3d3e] opacity-70 text-4xl sm:text-2xl lg:text-4xl font-oswald p-4 sm:py-2 lg:p-4 text-left w-full flex flex-col justify-between">
               <p>Minimal Tattoos</p>
-              <button className="text-left text-[1rem] text-coral flex items-center font-jost">
+              <span className="text-left text-[1rem] text-coral flex items-center font-jost">
                 Explore full gallery
                 <Icon
                   className="rotate-[135deg] ml-4"
                   icon="teenyicons:arrow-solid"
                 />
-              </button>
+              </span>
             </div>
             <Image
               src="/images/minimal-sun-moon.JPG"
@@ -86,7 +86,7 @@ export default function Tattoo() {
             />
           </div>
           <div className="relative w-fit shadow-custom-dark">
-            <div className="absolute bottom-0 h-24 bg-[#ff3d3e] opacity-70 text-4xl font-oswald p-4 text-left w-full flex flex-col justify-between">
+            <div className="absolute bottom-0 h-24 sm:h-20 lg:h-24 bg-[#ff3d3e] opacity-70 text-4xl sm:text-2xl lg:text-4xl font-oswald p-4 sm:py-2 lg:p-4 text-left w-full flex flex-col justify-between">
               <p>Shoulder Tattoos</p>
               <button className="text-left text-[1rem] text-coral flex items-center font-jost">
                 Explore course
@@ -103,34 +103,36 @@ export default function Tattoo() {
               alt=""
             />
           </div>
-          <div className="relative w-fit shadow-custom-dark">
-            <div className="absolute bottom-0 h-24 bg-[#ff3d3e] opacity-70 text-3xl font-oswald p-4 text-left w-full flex flex-col justify-between">
-              <p>Lord Shiva Tattoos</p>
-              <button className="text-left text-[1rem] text-coral flex items-center font-jost">
-                Explore full gallery
-                <Icon
-                  className="rotate-[135deg] ml-4"
-                  icon="teenyicons:arrow-solid"
-                />
-              </button>
+          <Link href="/tattoo/shiva">
+            <div className="relative w-fit shadow-custom-dark">
+              <div className="absolute bottom-0 h-24 sm:h-20 lg:h-24 bg-[#ff3d3e] opacity-70 text-4xl sm:text-2xl lg:text-4xl font-oswald p-4 sm:py-2 lg:p-4 text-left w-full flex flex-col justify-between">
+                <p>Lord Shiva Tattoos</p>
+                <span className="text-left text-[1rem] text-coral flex items-center font-jost">
+                  Explore full gallery
+                  <Icon
+                    className="rotate-[135deg] ml-4"
+                    icon="teenyicons:arrow-solid"
+                  />
+                </span>
+              </div>
+              <Image
+                src="/images/shiva-1.JPG"
+                width={392}
+                height={441}
+                alt=""
+              />
             </div>
-            <Image
-              src="/images/shiva-1.JPG"
-              width={392}
-              height={441}
-              alt=""
-            />
-          </div>
+          </Link>
           <div className="relative w-fit shadow-custom-dark">
-            <div className="absolute bottom-0 h-24 bg-[#ff3d3e] opacity-70 text-4xl font-oswald p-4 text-left w-full flex flex-col justify-between">
+            <div className="absolute bottom-0 h-24 sm:h-20 lg:h-24 bg-[#ff3d3e] opacity-70 text-4xl sm:text-2xl lg:text-4xl font-oswald p-4 sm:py-2 lg:p-4 text-left w-full flex flex-col justify-between">
               <p>Minimal Tattoos</p>
-              <button className="text-left text-[1rem] text-coral flex items-center font-jost">
+              <span className="text-left text-[1rem] text-coral flex items-center font-jost">
                 Explore full gallery
                 <Icon
                   className="rotate-[135deg] ml-4"
                   icon="teenyicons:arrow-solid"
                 />
-              </button>
+              </span>
             </div>
             <Image
               src="/images/minimal-sun-moon.JPG"
@@ -140,7 +142,7 @@ export default function Tattoo() {
             />
           </div>
           <div className="relative w-fit shadow-custom-dark">
-            <div className="absolute bottom-0 h-24 bg-[#ff3d3e] opacity-70 text-4xl font-oswald p-4 text-left w-full flex flex-col justify-between">
+            <div className="absolute bottom-0 h-24 sm:h-20 lg:h-24 bg-[#ff3d3e] opacity-70 text-4xl sm:text-2xl lg:text-4xl font-oswald p-4 sm:py-2 lg:p-4 text-left w-full flex flex-col justify-between">
               <p>Shoulder Tattoos</p>
               <button className="text-left text-[1rem] text-coral flex items-center font-jost">
                 Explore course
