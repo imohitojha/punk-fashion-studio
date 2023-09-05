@@ -198,10 +198,11 @@ export default function Home() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4 w-fit font-oswald">
           <div className="relative w-54 shadow-custom-dark">
             <Image
-              alt="training-thumbnail"
               src={Pranjul}
               width={396}
               height={397}
+              style={{ width: '100%', height: 'auto' }}
+              alt="training-thumbnail"
             />
             <div className="sm:px-4 md:px-8 text-xl h-24 md:text-2xl flex flex-col justify-center  md:h-28">
               Pranjul Gaur{" "}
@@ -212,10 +213,12 @@ export default function Home() {
           </div>
           <div className="relative w-54 shadow-custom-dark">
             <Image
-              alt="training-thumbnail"
               src={Ajitesh}
               width={396}
               height={397}
+              style={{ width: '100%', height: 'auto' }}
+              priority
+              alt="training-thumbnail"
             />
             <div className="sm:px-4 md:px-8 text-xl h-24 md:text-2xl flex flex-col justify-center  md:h-28">
               Ajitesh Gaur{" "}
@@ -251,8 +254,8 @@ export default function Home() {
       <section
         className="md:h-80 h-40 px-[8.75rem] bg-center bg-fixed bg-size-contain mb-20"
         style={{
-          "background-image": "url('/images/image_6487327.JPG')",
-          "background-repeat": "no-repeat",
+          "backgroundImage": "url('/images/image_6487327.JPG')",
+          "backgroundRepeat": "no-repeat",
         }}
       />
       <section id="special-offer" className="relative mb-16">

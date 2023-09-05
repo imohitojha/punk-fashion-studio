@@ -31,7 +31,7 @@ export default function Form() {
             >
               <div>
                 <label
-                  for="firstName"
+                  htmlFor="firstName"
                   className="block text-md font-medium leading-6"
                 >
                   First Name
@@ -49,7 +49,7 @@ export default function Form() {
 
               <div>
                 <label
-                  for="lastName"
+                  htmlFor="lastName"
                   className="block text-md font-medium leading-6"
                 >
                   Last Name
@@ -67,7 +67,7 @@ export default function Form() {
 
               <div>
                 <label
-                  for="contact"
+                  htmlFor="contact"
                   className="block text-md font-medium leading-6"
                 >
                   Contact number
@@ -87,7 +87,7 @@ export default function Form() {
 
               <div>
                 <label
-                  for="email"
+                  htmlFor="email"
                   className="block text-md font-medium leading-6"
                 >
                   Email address
@@ -105,7 +105,7 @@ export default function Form() {
 
               <div>
                 <label
-                  for="category"
+                  htmlFor="category"
                   className="block text-md font-medium leading-6"
                 >
                   Category
