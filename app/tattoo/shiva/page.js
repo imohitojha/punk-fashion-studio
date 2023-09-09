@@ -14,22 +14,22 @@ export default function Shiva() {
       <NavBar />
       <div className="w-full text-white flex mt-60 p-10 py-20 items-center justify-center bg-black bg-opacity-70">
         <Image
-          className="w-4/12 absolute mr-20 opacity-30"
+          className="w-4/12 absolute opacity-30"
           src={Logo}
           alt="Logo"
         />
         <div>
-          <span className="xl:text-8xl lg:text-7xl md:text-5xl text-2xl md:px-24 px-8 text-left">
+          <span className="xl:text-8xl lg:text-7xl md:text-5xl text-2xl md:px-12 px-2 text-left">
             Inspiring work on <br />
           </span>
-          <span className="xl:text-8xl lg:text-7xl md:text-5xl text-2xl md:px-24 px-8 text-left">
+          <span className="xl:text-8xl lg:text-7xl md:text-5xl text-2xl md:px-12 px-2 text-left">
             conceptual Lord Shiva <br />
           </span>
-          <span className="xl:text-8xl lg:text-7xl md:text-5xl text-2xl md:px-24 px-8 text-left">
+          <span className="xl:text-8xl lg:text-7xl md:text-5xl text-2xl md:px-12 px-2 text-left">
             Tattoos
           </span>
           <div className="flex justify-end lg:mt-4 md:mt-8 mt-4">
-            <span className="lg:w-3/4 w-5/6 md:text-3xl text-md md:px-8 -mr-4 text-right font-extralight lg:leading-[4rem] md:leading-[3.25rem] leading-7">
+            <span className="lg:w-9/10 w-11/12 md:text-3xl text-md md:px-8 -mr-4 text-right font-extralight lg:leading-[4rem] md:leading-[3.25rem] leading-7">
               Think about religious tattoos and Lord Shiva is perhaps the first
               thing that clicks. What else could rival his persona! Mahadev
               Tattoos have taken over the rage in the genre of religious

@@ -201,7 +201,6 @@ export default function Home() {
               src={Pranjul}
               width={396}
               height={397}
-              style={{ width: '100%', height: 'auto' }}
               alt="training-thumbnail"
             />
             <div className="sm:px-4 md:px-8 text-xl h-24 md:text-2xl flex flex-col justify-center  md:h-28">
@@ -216,7 +215,6 @@ export default function Home() {
               src={Ajitesh}
               width={396}
               height={397}
-              style={{ width: '100%', height: 'auto' }}
               priority
               alt="training-thumbnail"
             />

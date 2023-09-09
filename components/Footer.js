@@ -13,26 +13,36 @@ export default function Footer() {
               The Punk Fashion Studio
             </p>
             <div className="flex justify-start items-center md:flex-row flex-col gap-y-4 gap-x-8">
-              <Icon
-                className="text-[#ff3d3e] md:text-5xl text-4xl"
-                icon="akar-icons:instagram-fill"
-              />
-              <Icon
-                className="text-[#ff3d3e] md:text-5xl text-4xl"
-                icon="akar-icons:facebook-fill"
-              />
+              <Link href="https://www.instagram.com/the_punk_tattoo/" target="_blank">
+                <Icon
+                  className="text-[#ff3d3e] md:text-5xl text-4xl"
+                  icon="akar-icons:instagram-fill"
+                />
+              </Link>
+              <Link href="https://www.facebook.com/profile.php?id=100064813788369" target="_blank">
+                <Icon
+                  className="text-[#ff3d3e] md:text-5xl text-4xl"
+                  icon="akar-icons:facebook-fill"
+                />
+              </Link>
+
               <Icon
                 className="text-[#ff3d3e] md:text-5xl text-4xl"
                 icon="akar-icons:twitter-fill"
               />
-              <Icon
-                className="text-[#ff3d3e] md:text-5xl text-4xl"
-                icon="akar-icons:youtube-fill"
-              />
-              <Icon
-                className="text-[#ff3d3e] md:text-5xl text-4xl"
-                icon="akar-icons:pinterest-fill"
-              />
+
+              <Link href="https://www.youtube.com/@thepunkfashionstudio7292" target="_blank">
+                <Icon
+                  className="text-[#ff3d3e] md:text-5xl text-4xl"
+                  icon="akar-icons:youtube-fill"
+                />
+              </Link>
+              <Link href="https://in.pinterest.com/ajcreation80/" target="_blank">
+                <Icon
+                  className="text-[#ff3d3e] md:text-5xl text-4xl"
+                  icon="akar-icons:pinterest-fill"
+                />
+              </Link>
             </div>
           </div>
         </div>
